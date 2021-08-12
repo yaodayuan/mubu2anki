@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>k8s</title>
+  </head>
+  <body>
+    <outline text="metadata" _mubu_text="%3Cspan%3Emetadata%3C/span%3E" _note="" _mubu_note="">
+      <outline text="deckName" _mubu_text="%3Cspan%3EdeckName%3C/span%3E" _note="" _mubu_note="">
+        <outline text="开源项目::k8s" _mubu_text="%3Cspan%3E%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE::k8s%3C/span%3E" _note="" _mubu_note=""/>
+      </outline>
+    </outline>
+    <outline text="k8s是什么？" _mubu_text="%3Cspan%3Ek8s%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%3C/span%3E" _note="https://kubernetes.io/zh/" _mubu_note="%3Ca%20class=%22content-link%22%20target=%22_blank%22%20spellcheck=%22false%22%20rel=%22noreferrer%22%20href=%22https://kubernetes.io/zh/%22%3E%3Cspan%20class=%22content-link-text%22%3Ehttps://kubernetes.io/zh/%3C/span%3E%3C/a%3E">
+      <outline text="用于自动部署，扩展，管理容器化应用的系统" _mubu_text="%3Cspan%3E%E7%94%A8%E4%BA%8E%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%EF%BC%8C%E6%89%A9%E5%B1%95%EF%BC%8C%E7%AE%A1%E7%90%86%E5%AE%B9%E5%99%A8%E5%8C%96%E5%BA%94%E7%94%A8%E7%9A%84%E7%B3%BB%E7%BB%9F%3C/span%3E" _note="" _mubu_note=""/>
+    </outline>
+    <outline text="有哪些k8s特性？" _mubu_text="%3Cspan%3E%E6%9C%89%E5%93%AA%E4%BA%9Bk8s%E7%89%B9%E6%80%A7%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+      <outline text="自动上线和回滚" _mubu_text="%3Cspan%3E%E8%87%AA%E5%8A%A8%E4%B8%8A%E7%BA%BF%E5%92%8C%E5%9B%9E%E6%BB%9A%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是自动上线和回滚？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E5%8A%A8%E4%B8%8A%E7%BA%BF%E5%92%8C%E5%9B%9E%E6%BB%9A%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="分步部署上线" _mubu_text="%3Cspan%3E%E5%88%86%E6%AD%A5%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%BA%BF%3C/span%3E" _note="" _mubu_note=""/>
+          <outline text="监控实例" _mubu_text="%3Cspan%3E%E7%9B%91%E6%8E%A7%E5%AE%9E%E4%BE%8B%3C/span%3E" _note="" _mubu_note=""/>
+          <outline text="自动回滚" _mubu_text="%3Cspan%3E%E8%87%AA%E5%8A%A8%E5%9B%9E%E6%BB%9A%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+        <outline text="怎么实现自动化上线和回滚？" _mubu_text="%3Cspan%3E%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%8A%E7%BA%BF%E5%92%8C%E5%9B%9E%E6%BB%9A%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="用 Deployment" _mubu_text="%3Cspan%3E%E7%94%A8%20Deployment%3C/span%3E" _note="https://kubernetes.io/zh/docs/concepts/workloads/controllers/deployment/" _mubu_note="%3Ca%20class=%22content-link%22%20target=%22_blank%22%20spellcheck=%22false%22%20rel=%22noreferrer%22%20href=%22https://kubernetes.io/zh/docs/concepts/workloads/controllers/deployment/%22%3E%3Cspan%20class=%22content-link-text%22%3Ehttps://kubernetes.io/zh/docs/concepts/workloads/controllers/deployment/%3C/span%3E%3C/a%3E"/>
+        </outline>
+      </outline>
+      <outline text="存储编排" _mubu_text="%3Cspan%3E%E5%AD%98%E5%82%A8%E7%BC%96%E6%8E%92%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是存储编排" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E5%AD%98%E5%82%A8%E7%BC%96%E6%8E%92%3C/span%3E" _note="" _mubu_note="">
+          <outline text="自动挂载所选的存储" _mubu_text="%3Cspan%3E%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%E6%89%80%E9%80%89%E7%9A%84%E5%AD%98%E5%82%A8%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+        <outline text="怎么存储编排？" _mubu_text="%3Cspan%3E%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%BC%96%E6%8E%92%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="持久卷" _mubu_text="%3Cspan%3E%E6%8C%81%E4%B9%85%E5%8D%B7%3C/span%3E" _note="https://kubernetes.io/zh/docs/concepts/storage/persistent-volumes/​" _mubu_note="%3Ca%20class=%22content-link%22%20target=%22_blank%22%20spellcheck=%22false%22%20rel=%22noreferrer%22%20href=%22https://kubernetes.io/zh/docs/concepts/storage/persistent-volumes/%22%3E%3Cspan%20class=%22content-link-text%22%3Ehttps://kubernetes.io/zh/docs/concepts/storage/persistent-volumes/%3C/span%3E%3C/a%3E%3Cspan%3E%E2%80%8B%3C/span%3E"/>
+        </outline>
+      </outline>
+      <outline text="自动装箱" _mubu_text="%3Cspan%3E%E8%87%AA%E5%8A%A8%E8%A3%85%E7%AE%B1%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是自动装箱" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E5%8A%A8%E8%A3%85%E7%AE%B1%3C/span%3E" _note="" _mubu_note="">
+          <outline text="自动放置容器到 node 上" _mubu_text="%3Cspan%3E%E8%87%AA%E5%8A%A8%E6%94%BE%E7%BD%AE%E5%AE%B9%E5%99%A8%E5%88%B0%20node%20%E4%B8%8A%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+        <outline text="如何实现自动装箱" _mubu_text="%3Cspan%3E%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E8%A3%85%E7%AE%B1%3C/span%3E" _note="" _mubu_note="">
+          <outline text="为容器管理资源" _mubu_text="%3Cspan%3E%E4%B8%BA%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90%3C/span%3E" _note="https://kubernetes.io/zh/docs/concepts/configuration/manage-resources-containers/" _mubu_note="%3Ca%20class=%22content-link%22%20target=%22_blank%22%20spellcheck=%22false%22%20rel=%22noreferrer%22%20href=%22https://kubernetes.io/zh/docs/concepts/configuration/manage-resources-containers/%22%3E%3Cspan%20class=%22content-link-text%22%3Ehttps://kubernetes.io/zh/docs/concepts/configuration/manage-resources-containers/%3C/span%3E%3C/a%3E"/>
+        </outline>
+      </outline>
+      <outline text="ipv4 + ipv6" _mubu_text="%3Cspan%3Eipv4%20+%20ipv6%3C/span%3E" _note="" _mubu_note="">
+        <outline text="ipv4, ipv6功能是什么？" _mubu_text="%3Cspan%3Eipv4,%20ipv6%E5%8A%9F%E8%83%BD%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="为 pod 和 Service 分配的 ipv4 和 ipv6 的地址" _mubu_text="%3Cspan%3E%E4%B8%BA%20pod%20%E5%92%8C%20Service%20%E5%88%86%E9%85%8D%E7%9A%84%20ipv4%20%E5%92%8C%20ipv6%20%E7%9A%84%E5%9C%B0%E5%9D%80%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+      </outline>
+      <outline text="自我修复" _mubu_text="%3Cspan%3E%E8%87%AA%E6%88%91%E4%BF%AE%E5%A4%8D%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是自我修复？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E6%88%91%E4%BF%AE%E5%A4%8D%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="容器死了重启" _mubu_text="%3Cspan%3E%E5%AE%B9%E5%99%A8%E6%AD%BB%E4%BA%86%E9%87%8D%E5%90%AF%3C/span%3E" _note="" _mubu_note=""/>
+          <outline text="节点死了重新调度" _mubu_text="%3Cspan%3E%E8%8A%82%E7%82%B9%E6%AD%BB%E4%BA%86%E9%87%8D%E6%96%B0%E8%B0%83%E5%BA%A6%3C/span%3E" _note="" _mubu_note=""/>
+          <outline text="杀死 health check 失败的容器" _mubu_text="%3Cspan%3E%E6%9D%80%E6%AD%BB%20health%20check%20%E5%A4%B1%E8%B4%A5%E7%9A%84%E5%AE%B9%E5%99%A8%3C/span%3E" _note="" _mubu_note=""/>
+          <outline text="屏蔽 health check 失败的容器" _mubu_text="%3Cspan%3E%E5%B1%8F%E8%94%BD%20health%20check%20%E5%A4%B1%E8%B4%A5%E7%9A%84%E5%AE%B9%E5%99%A8%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+      </outline>
+      <outline text="服务发现与负载均衡" _mubu_text="%3Cspan%3E%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0%E4%B8%8E%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是服务发现？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="无侵入的服务发现" _mubu_text="%3Cspan%3E%E6%97%A0%E4%BE%B5%E5%85%A5%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0%3C/span%3E" _note="" _mubu_note="">
+            <outline text="和 Spring Cloud 对比" _mubu_text="%3Cspan%3E%E5%92%8C%20Spring%20Cloud%20%E5%AF%B9%E6%AF%94%3C/span%3E" _note="" _mubu_note=""/>
+          </outline>
+        </outline>
+        <outline text="什么是负载均衡？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="多个服务一同响应" _mubu_text="%3Cspan%3E%E5%A4%9A%E4%B8%AA%E6%9C%8D%E5%8A%A1%E4%B8%80%E5%90%8C%E5%93%8D%E5%BA%94%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+      </outline>
+      <outline text="Secret和配置管理" _mubu_text="%3Cspan%3ESecret%E5%92%8C%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是 Secret?" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%20Secret?%3C/span%3E" _note="" _mubu_note="">
+          <outline text="密码的配置文件，如密码" _mubu_text="%3Cspan%3E%E5%AF%86%E7%A0%81%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%EF%BC%8C%E5%A6%82%E5%AF%86%E7%A0%81%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+        <outline text="什么是 配置" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%20%E9%85%8D%E7%BD%AE%3C/span%3E" _note="" _mubu_note="">
+          <outline text="普通的配置文件" _mubu_text="%3Cspan%3E%E6%99%AE%E9%80%9A%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+      </outline>
+      <outline text="批量执行" _mubu_text="%3Cspan%3E%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8C%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是批量执行？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8C%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="可以执行批任务" _mubu_text="%3Cspan%3E%E5%8F%AF%E4%BB%A5%E6%89%A7%E8%A1%8C%E6%89%B9%E4%BB%BB%E5%8A%A1%3C/span%3E" _note="" _mubu_note="">
+            <outline text="spark on k8s" _mubu_text="%3Cspan%3Espark%20on%20k8s%3C/span%3E" _note="" _mubu_note=""/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="水平扩缩" _mubu_text="%3Cspan%3E%E6%B0%B4%E5%B9%B3%E6%89%A9%E7%BC%A9%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是水平扩展？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E6%B0%B4%E5%B9%B3%E6%89%A9%E5%B1%95%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="增减实例" _mubu_text="%3Cspan%3E%E5%A2%9E%E5%87%8F%E5%AE%9E%E4%BE%8B%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+      </outline>
+      <outline text="为扩展性设计" _mubu_text="%3Cspan%3E%E4%B8%BA%E6%89%A9%E5%B1%95%E6%80%A7%E8%AE%BE%E8%AE%A1%3C/span%3E" _note="" _mubu_note="">
+        <outline text="什么是为扩展而设计？" _mubu_text="%3Cspan%3E%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%BA%E6%89%A9%E5%B1%95%E8%80%8C%E8%AE%BE%E8%AE%A1%EF%BC%9F%3C/span%3E" _note="" _mubu_note="">
+          <outline text="有 API" _mubu_text="%3Cspan%3E%E6%9C%89%20API%3C/span%3E" _note="" _mubu_note=""/>
+          <outline text="有插件" _mubu_text="%3Cspan%3E%E6%9C%89%E6%8F%92%E4%BB%B6%3C/span%3E" _note="" _mubu_note=""/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>
